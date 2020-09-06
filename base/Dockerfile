@@ -7,6 +7,7 @@ RUN apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -y --no-ins
       openjdk-8-jdk \
       net-tools \
       curl \
+      python3-pip \
       netcat \
       gnupg \
       libsnappy-dev \
